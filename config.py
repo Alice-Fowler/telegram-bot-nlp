@@ -4,7 +4,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).parent
 
 # Токен бота
-API_TOKEN = "8387244610:AAGEiy7yheIgZvUYAhLSRFenUpeQLZ6ZMuI"
+API_TOKEN = "TokenHere"
 
 # Настройки базы данных
 DB_PATH = BASE_DIR / "finance_bot.db"
@@ -37,4 +37,5 @@ CATEGORY_GROUPS = {
     "essentials": ["Продукты", "Транспорт", "Здоровье", "Образование"],
     "wants": ["Еда", "Кафе", "Развлечения"],
     "savings": ["Другое"]  # Сюда можно отнести накопления
+
 }
